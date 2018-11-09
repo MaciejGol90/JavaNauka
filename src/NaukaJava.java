@@ -5,12 +5,18 @@ int passengers;
     passangers = passangers + 5;    
     passangers = passangers - 3;
     passangers = passangers - 1 + 5;
+
+    public NaukaJava() {
+        this.letters = driver.lenght();
+    }
         System.out.println(passangers);
 
 String driver;
 driver = "Hamish";
-int letters = driver.lenght();//ile liter zawiera zmienna driver
-System.out.println(letters);//wyświatla długość zmiennej letter
+    //ile liter zawiera zmienna driver
+int letters;
+System.out.println (letters);
+//wyświatla długość zmiennej letter
 
 String driver;
 driver = "Hamish";
