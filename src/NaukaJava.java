@@ -1,31 +1,33 @@
- public class NaukaJava {
-             
-int passengers;
-    passangers = 0;
-    passangers = passangers + 5;    
-    passangers = passangers - 3;
-    passangers = passangers - 1 + 5;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package naukajawy;
 
-    public NaukaJava() {
-        this.letters = driver.lenght();
+/**
+ *
+ * @author maciejgolianek
+ */
+//zad1.
+public class NaukaJawy {
+int x = 5;
+double temperature = 75.6;
+char grade = 'A';
+String name = "Adam";
+// zad2.
+double register = 10.0;
+    register = register + 5;
+    register = register - 2.5;
+    register = register + 10;
+    register = register - 3;
+System.out.println(register);
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
-        System.out.println(passangers);
-
-String driver;
-driver = "Hamish";
-    //ile liter zawiera zmienna driver
-int letters;
-System.out.println (letters);
-//wyświatla długość zmiennej letter
-
-String driver;
-driver = "Hamish";
-
-String driverFirstName;
-String driverSecondName;
-driverFirstName = "Hamish";
-driverSecondName = "Blake";
-String driverFullName = driverFirstName +" "+ driverSecondName;
-System.out.println(driverFillName);
- }
-
+    
+}
