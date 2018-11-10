@@ -22,6 +22,20 @@ double register = 10.0;
     register = register + 10;
     register = register - 3;
 System.out.println(register);
+//zad3
+int bankBalance = 500;
+bankBalance = bankBalance + 250;
+bankBalance = bankBalance - 100;
+System.out.println(bankBalance);
+//zad4
+System.out.println(2.0 * (5/2)); //=4.0
+// zad5
+int day = 8;
+String month = July;
+
+
+
+
 
     /**
      * @param args the command line arguments
