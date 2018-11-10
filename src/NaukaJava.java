@@ -32,9 +32,20 @@ System.out.println(2.0 * (5/2)); //=4.0
 // zad5
 int day = 8;
 String month = July;
+//zad6
+String firstName = "Maciej";
+String lastName = "Golianek";
+String fullName = firstName + " " + lastName;
+int lettersInName = lastName.length(lastName) + firstName.length (firstName);
+System.out.println("Hello, my name is " + fullName + ".");
+Syste.out.println("There are " + lettersInName + "letters in my name.");
+//zad 7
+public class celcius{;
+double farenhait = 13.0;
+double celcius = (farenhait - 32) * 5 /9;
+System.out.println(celcius)
 
-
-
+        }
 
 
     /**
