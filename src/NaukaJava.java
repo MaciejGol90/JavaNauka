@@ -53,6 +53,18 @@ System.out.println(celcius)
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        boolean action = true;
+boolean romance = true;
+boolean horror = false;
+boolean comedy = true;
+
+if (action && romance) {
+    //zawiera romans i akcje
+    System.out.println("Ten film zawiera akcje i romans.");
+    if (comedy || horror) {
+    System.out.println ("Ten film zawiera również komedie lub horror!")
+    }
+}
     }
     
 }
