@@ -18,3 +18,12 @@ if (like) {
 System.out.println("Number of likes: " + currentLikes);
 return currentLikes;
 }
+
+// Define a function with the name and parameters: makeChange(double itemCost, double dollarsProvided)
+// Calculate and return the calculated change which should be the dollarsProvided minus the itemCost
+
+// Remember to return a value you need 1) a return type and 2) a return statement
+public double makeChange(double itemCost, double dollarsProvided) {
+    double change = dollarsProvided - itemCost;
+    return change;
+}
