@@ -9,16 +9,12 @@ package naukajawy;
  *
  * @author maciejgolianek
  */
-//zad1.
-public void println (String x) {
 
-    if(x == null) {
-    x = "null";
-    }
-    try {
-        ensureOpen ();
-        texOut.write(x);
-    } catch (IOException e) {
-     trouble = true;
-    }
+public int likePhoto (int currentLikes, String comment, boolean like) {
+System.out.println("Feedback " + comment);
+if (like) {
+    currentLikes = currentlikes + 1;
+}
+System.out.println("Number of likes: " + currentLikes);
+return currentLikes;
 }
